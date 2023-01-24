@@ -1,0 +1,9 @@
+.bg-add{
+    background-image:url(../images/banner.png), url(../images/rectangle-7.png);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
