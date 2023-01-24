@@ -1,9 +1,18 @@
+*{
+    font-family: Poppins;
+}
+
 .bg-add{
     background-image:url(../images/banner.png), url(../images/rectangle-7.png);
     background-color: transparent;
+    background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
     width: 100%;
+}
+
+.font-title{
+    font-family: 'EB Garamond', serif;
 }
