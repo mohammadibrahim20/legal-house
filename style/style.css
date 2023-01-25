@@ -16,3 +16,25 @@
 .font-title{
     font-family: 'EB Garamond', serif;
 }
+
+.banner-img-1, .banner-img-2, .banner-img-3{
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: cover;
+    object-fit: cover;
+    background-color: transparent;
+    background-blend-mode: multiply;
+
+}
+.banner-img-1{
+    background-image: url(../images/slide/slider-1.jpg), url(../images/Rectangle\ 5.png);  
+}
+.banner-img-2{
+    background-image: url(../images/slide/slider-2.jpg), url(../images/rectangle-7.png);
+     
+}
+.banner-img-3{
+    background-image: url(../images/slide/slider-3.jpg), url(../images/rectangle-7.png);
+   
+}
