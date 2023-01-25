@@ -50,7 +50,28 @@
               <a class="nav-link">Contact Us <strong>&gt;</strong></a>
             </li>
           </ul>
-          <button class="btn btn-primary ms-5" type="submit">Free Consultation</button>
+          <button class="btn btn-primary ms-5" type="submit" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">Free Consultation</button>
+          <!-- modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Free Apointment</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Appointment for call now: +8801824-724614
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
 
         </div>
       </div>
@@ -68,16 +89,12 @@
         </p>
         <div class="">
 
-          <form class="w-100 " action="">
-            <div
-              class="input-group mb-3 d-flex flex-md-row flex-column justify-content-center align-items-center gap-3  ">
-              <input type="text" class="form-control rounded w-50 py-2 px-5 " placeholder="Search your services"
-                aria-label="Search inpupt" aria-describedby="basic-addon2">
-              <div class="input-group-append w-25">
-                <button class="btn btn-primary  py-2 px-5 mz-auto " type="button">Search</button>
-              </div>
-            </div>
-          </form>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control rounded" placeholder="Search your services"
+              aria-label="Search your services" aria-describedby="button-addon2">
+            <button class="btn btn-primary ms-3 rounded" type="button" id="button-addon2"> Search</button>
+          </div>
 
         </div>
       </div>
@@ -106,22 +123,24 @@
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
                 <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <p>Corporate law is the body of law governing the rights, relations, and conduct of persons, companies,
+                  organizations and businesses. The term refers to the legal practice of law relating to corporations,
+                  or to the theory of corporations.</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
           </div>
         </div>
-        <div class="col border">
+        <div class="col border law-background">
           <div class="py-5 my-3">
             <div class="d-flex justify-content-center align-items-center flex-column pt-3 px-4 my-5 mx-3">
-              <img class="img-fluid w-25 pb-3" src="images/box-photo/business.png" class="card-img-top" alt="...">
+              <img class="img-fluid w-25 pb-3" src="images/box-photo/criminal.png" class="card-img-top" alt="...">
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
-                <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <h3 class="font-title py-2">Crimainal Law</h3>
+                <p>Criminal law is the body of law that relates to crime. It prescribes conduct perceived as
+                  threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of
+                  people inclusive of one's self. Crimainal Law</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
@@ -130,12 +149,13 @@
         <div class="col border-bottom ">
           <div class="py-5 my-3">
             <div class="d-flex justify-content-center align-items-center flex-column pt-3 px-4 my-5 mx-3">
-              <img class="img-fluid w-25 pb-3" src="images/box-photo/business.png" class="card-img-top" alt="...">
+              <img class="img-fluid w-25 pb-3" src="images/box-photo/education.png" class="card-img-top" alt="...">
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
-                <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <h3 class="font-title py-2">Child Support</h3>
+                <p>When a court orders a parent to pay child support, the parent must pay directly to the child's
+                  custodian rather than directly to the child. States generally do not impose an obligation to pay
+                  support for a child after that child has reached the age of 18.</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
@@ -154,23 +174,25 @@
               <img class="img-fluid w-25 pb-3" src="images/box-photo/business.png" class="card-img-top" alt="...">
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
-                <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <h3 class="font-title py-2">Education Law</h3>
+                <p>Education law is a set of rules and regulations that guide the workings of an education system. Many
+                  regions have detailed educational law systems, in order to create comprehensive educational policies
+                  for a specific nation..</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
           </div>
         </div>
-        <div class="col border">
+        <div class="col border law-background">
           <div class="py-5 my-3">
             <div class="d-flex justify-content-center align-items-center flex-column pt-3 px-4 my-5 mx-3">
-              <img class="img-fluid w-25 pb-3" src="images/box-photo/business.png" class="card-img-top" alt="...">
+              <img class="img-fluid w-25 pb-3" src="images/box-photo/divorce.png" class="card-img-top" alt="...">
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
-                <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <h3 class="font-title py-2">Divorce Law</h3>
+                <p>Education law is a set of rules and regulations that guide the workings of an education system. Many
+                  regions have detailed educational law systems, in order to create comprehensive educational policies
+                  for a specific nation..</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
@@ -179,12 +201,13 @@
         <div class="col border-top ">
           <div class="py-5 my-3">
             <div class="d-flex justify-content-center align-items-center flex-column pt-3 px-4 my-5 mx-3">
-              <img class="img-fluid w-25 pb-3" src="images/box-photo/business.png" class="card-img-top" alt="...">
+              <img class="img-fluid w-25 pb-3" src="images/box-photo/divorce.png" class="card-img-top" alt="...">
 
               <div class=" d-flex justify-content-center align-items-center flex-column text-center px-3">
-                <h3 class="font-title py-2">Business Law</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
+                <h3 class="font-title py-2">Taxes Law</h3>
+                <p>Tax law or revenue law is an area of legal study in which public or sanctioned authorities, such as
+                  federal, state and municipal governments (as in the case of the US) use a body of rules and procedures
+                  (laws) to assess and collect taxes in a legal context.</p>
                 <img src="images/icon/Frame.png" alt="" srcset="">
               </div>
             </div>
@@ -302,17 +325,15 @@
               <h2 class="accordion-header p-2 my-2 bg-body-secondary rounded " id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                  What is the difference between Flex and Grid?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox
+                  was designed for layout in one dimension - either a row or a column. Grid was designed for
+                  two-dimensional layout - rows, and columns at the same time.
                 </div>
               </div>
             </div>
@@ -320,17 +341,23 @@
               <h2 class="accordion-header bg-body-secondary rounded p-2 my-2" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  What is a Media Query?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse mt-3" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong> Media query is a CSS technique introduced in CSS3.</strong>
+
+                  It uses the @media rule to include a block of CSS properties only if a certain condition is true.
+
+                  <strong> Add a Breakpoint
+                  </strong> Earlier in this tutorial we made a web page with rows and columns, and it was responsive,
+                  but it did
+                  not look good on a small screen.
+
+                  Media queries can help with that. We can add a breakpoint where certain parts of the design will
+                  behave differently on each side of the breakpoint.
                 </div>
               </div>
             </div>
@@ -338,17 +365,17 @@
               <h2 class="accordion-header bg-body-secondary rounded p-2 my-2" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  What are semantics HTML?
+
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just
+                  presentation. For example, a <code><p tag></code> tag indicates that the enclosed text is a paragraph.
+                  This is both semantic and presentational because people know what paragraphs are, and browsers know
+                  how to display them
                 </div>
               </div>
             </div>
@@ -356,17 +383,14 @@
               <h2 class="accordion-header bg-body-secondary rounded p-2 my-" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                  Accordion Item #4
-                </button>
+                  What is css Box Model</button>
               </h2>
               <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  In web development, the CSS box model refers to how HTML elements are modeled in browser engines and
+                  how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept
+                  for the composition of HTML webpages
                 </div>
               </div>
             </div>
@@ -383,16 +407,101 @@
       </div>
 
     </section>
+    <!-- Extra Form -->
+    <section class="container py-5 my-5">
+      <div class="text-center">
+        <h1 class="font-title fw-bold">Contact With Us</h1>
+        <p class="fs-5 w-75 m-auto py-3">There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 my-5">
+          <div class="row">
+            <div class="col-12 col-md-6 border bg-body-secondary py-3 pz-3 ">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="my-3 img-logo">
+                  <img class=" img-fluid " src="images/icon/location.png" alt="" srcset="">
+                </div>
+                <h5 class="font-title fw-4">Address</h5>
+                <address>A108 Adam Street, <br>
+                  New York, NY 535022</address>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 border bg-body-secondary py-3 pz-3 ">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="my-3 img-logo">
+                  <img class=" img-fluid " src="images/icon/call.png" alt="" srcset="">
+                </div>
+                <h5 class="font-title fw-4">Call Us</h5>
+                <p>+88 01750 00 00 00 <br>
+                  +88 01750 00 00 002</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 border bg-body-secondary py-3 pz-3 ">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="my-3 img-logo">
+                  <img class=" img-fluid " src="images/icon/email.png" alt="" srcset="">
+                </div>
+                <h5 class="font-title fw-4">Email Us</h5>
+                <p>info@gmail.com <br>
+                  info@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 border bg-body-secondary py-3 pz-3 ">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="my-3 img-logo">
+                  <img class=" img-fluid " src="images/icon/location.png" alt="" srcset="">
+                </div>
+                <h5 class="font-title fw-4">Working Hours</h5>
+                <p>
+                  Mon-Fri: 9AM to 5PM <br>
+                  Sunday: 9AM to 1 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- form -->
+        <div class="col-12 col-sm-6 ">
+          <form class="my-5 ms-2" action="">
+            <div class="mb-4">
+              <input type="text" class="form-control bg-body-secondary py-3" id="exampleFormControlInput1"
+                placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+              <input type="email" class="form-control bg-body-secondary py-3" id="exampleFormControlInput1"
+                placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+              <input type="text" class="form-control bg-body-secondary py-3" id="exampleFormControlInput1"
+                placeholder="Subject">
+            </div>
+
+            <div class="mb-4">
+              <textarea class="form-control bg-body-secondary py-3" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <div>
+              <button class="form-control btn btn-primary py-3">Sand Message</button>
+            </div>
+        </div>
+        </form>
+
+      </div>
+
+    </section>
 
     <!-- Footer Section -->
     <section class="bg-dark ">
       <footer class="container py-5 mt-5 text-white">
         <div class="row">
           <div class="col-md-3">
-            
+
             <img src="images/logo.png" class="mb-2" alt="">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+
           </div>
           <div class="col-md-3">
             <h6 class="mb-4 fs-4">Useful Links</h6>
@@ -401,29 +510,31 @@
             <p>Cases</p>
             <p>Blog</p>
             <p>Contact us</p>
-           
+
           </div>
           <div class="col-md-3">
             <h6 class="mb-4 fs-4">Contact Now</h6>
-            <address>555 4th 5t NW, Washington <br> 
+            <address>555 4th 5t NW, Washington <br>
               DC 20530, United States</address>
             <p>+88 01750 000 000 <br>
               +88 01750 000 000</p>
             <p>info@gmail.com <br>
               info@gmail.com</p>
-          
+
           </div>
           <div class="col-md-3">
             <h6 class="mb-4 fs-4">Subscribe</h6>
             <p>Subscribe for our latest & Articles. <br> We Won't Give You Spam Mails</p>
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
-              <button class="btn btn-primary" type="button" id="button-addon2"> <i class="fa-sharp fa-solid fa-arrow-pointer"></i></button>
+              <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address"
+                aria-describedby="button-addon2">
+              <button class="btn btn-primary" type="button" id="button-addon2"> <i
+                  class="fa-sharp fa-solid fa-arrow-pointer"></i></button>
             </div>
-    
+
           </div>
         </div>
-      
+
 
       </footer>
     </section>
